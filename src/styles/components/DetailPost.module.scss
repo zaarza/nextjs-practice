@@ -1,0 +1,22 @@
+.detailPost {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+
+  &__A {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+      text-underline-offset: 0.8rem;
+    }
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+}

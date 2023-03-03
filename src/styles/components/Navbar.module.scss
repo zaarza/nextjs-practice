@@ -1,0 +1,24 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid #aaaaaa;
+
+  &__links {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__A {
+    text-decoration: none;
+    color: #5f5f5f;
+    transition: 0.3s;
+
+    &:hover {
+      color: black;
+      text-decoration: underline;
+      text-underline-offset: 0.8rem;
+    }
+  }
+}

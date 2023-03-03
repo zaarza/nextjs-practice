@@ -1,0 +1,22 @@
+.home {
+  padding: 20px;
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  &__title {
+    text-decoration: underline;
+    text-underline-offset: 0.8rem;
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    list-style-type: decimal;
+    list-style-position: inside;
+  }
+}
